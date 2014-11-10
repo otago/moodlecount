@@ -1,7 +1,7 @@
 {
 	"name": "otago/moodlecount",
 	"description": "A web service that returns the number of read/unread messages for a user",
-	"type": "library",
+	"type": "moodle-local",
 	"homepage": "https://github.com/otago/moodlecount",
 	"keywords": ["moodle", "plugin", "web service"],
 	"license": "BSD-3-Clause",
