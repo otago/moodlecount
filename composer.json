@@ -10,5 +10,8 @@
 	],
 	"support": {
 		"issues": "https://github.com/otago/moodlecount/issues"
+	},
+	"require": {
+		"composer/installers": "*"
 	}
 }
