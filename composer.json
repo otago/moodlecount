@@ -1,0 +1,14 @@
+{
+	"name": "otago/moodlecount",
+	"description": "A web service that returns the number of read/unread messages for a user",
+	"type": "library",
+	"homepage": "https://github.com/otago/moodlecount",
+	"keywords": ["moodle", "plugin", "web service"],
+	"license": "BSD-3-Clause",
+	"authors": [
+		{"name": "Torleif","email": "torleifw@op.ac.nz"}
+	],
+	"support": {
+		"issues": "https://github.com/otago/moodlecount/issues"
+	}
+}
