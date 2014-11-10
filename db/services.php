@@ -26,14 +26,14 @@ $functions = array(
         'local_op_wstemplate_count_read_messages' => array(
                 'classname'   => 'local_op_wstemplate_external',
                 'methodname'  => 'count_read_messages',
-                'classpath'   => 'local/op/externallib.php',
+                'classpath'   => 'local/moodlecount/externallib.php',
                 'description' => 'Returns a count of read messages belonging to a user',
                 'type'        => 'read',
         ),
         'local_op_wstemplate_count_unread_messages' => array(
                 'classname'   => 'local_op_wstemplate_external',
                 'methodname'  => 'count_unread_messages',
-                'classpath'   => 'local/op/externallib.php',
+                'classpath'   => 'local/moodlecount/externallib.php',
                 'description' => 'Returns a count of unread belonging to a user',
                 'type'        => 'read',
         )
