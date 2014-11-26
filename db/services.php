@@ -36,13 +36,23 @@ $functions = array(
                 'classpath'   => 'local/moodlecount/externallib.php',
                 'description' => 'Returns a count of unread belonging to a user',
                 'type'        => 'read',
+        ),
+        'local_op_wstemplate_count_unread_messages_and_courses' => array(
+                'classname'   => 'local_op_wstemplate_external',
+                'methodname'  => 'count_unread_and_courses_messages',
+                'classpath'   => 'local/moodlecount/externallib.php',
+                'description' => 'Returns courses and a count of unread messages belonging to a user',
+                'type'        => 'read',
         )
 );
 
 // We define the services to install as pre-build services. A pre-build service is not editable by administrator.
 $services = array(
         'OP Service' => array(
-                'functions' => array ('local_op_wstemplate_count_read_messages', 'local_op_wstemplate_count_unread_messages'),
+                'functions' => array (
+					'local_op_wstemplate_count_read_messages', 
+					'local_op_wstemplate_count_unread_messages', 
+					'local_op_wstemplate_count_unread_messages_and_courses'),
                 'restrictedusers' => 0,
                 'enabled'=>1,
         )
