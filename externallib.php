@@ -48,7 +48,7 @@ class local_op_wstemplate_external extends external_api {
     public static function count_unread_and_courses_messages_parameters() {
         return new external_function_parameters(
                 array(
-					'userid' => new external_value(PARAM_TEXT, 'Will return a count of unread messages and courses', VALUE_DEFAULT, '')
+					'userid' => new external_value(PARAM_INT, 'Will return a count of unread messages and courses', VALUE_DEFAULT, 0)
 				)
         );
     }
